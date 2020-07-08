@@ -127,3 +127,21 @@ nav {
 	font-family: "Bad Script", monospace;
 	font-size: 1.5rem;
 }
+
+.aboutText {
+	max-width: 85%;
+	display: inline-block;
+	font-family: 'El Messiri', sans-serif;
+	font-size: 1.25rem;
+	margin: 3rem;
+	float;
+}
+
+#banana {
+	width: 42%;
+	float: left;
+	margin-right: 1.5rem;
+	margin-bottom: 1rem;
+	position: relative;
+}
+
