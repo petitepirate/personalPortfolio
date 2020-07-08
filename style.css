@@ -8,7 +8,7 @@
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: 1fr 1rem auto;
-	max-width: 40rem;
+	max-width: 40%;
 	margin: auto;
 	position: relative;
 	box-shadow: 0.75rem -0.5rem 0 var(--accent), 0 -0.5rem 0 var(--primary), -0.8rem -1rem 0 var(--secondary);
@@ -79,7 +79,7 @@
 		text-shadow: 0.075em 0.075em var(--secondary);
 	}
 }
-@media screen and (min-width: 25rem) {
+/* @media screen and (min-width: 25rem) {
 	.card__title::before {
 		content: "";
 		position: absolute;
@@ -95,10 +95,11 @@
 			clip-path: circle(100%);
 		}
 	}
-}
+} */
 /* page layout */
 body {
 	margin-top: 4rem;
+	margin-bottom: 4rem;
 }
 
 nav {
@@ -110,7 +111,7 @@ nav {
 }
 
 .navbar {
-	margin-top: 10rem;
+	margin-top: 8%;
 	display: inline-block;
 	justify-content: space-around;
 	align-items: center;
