@@ -175,3 +175,41 @@ nav {
 	font-size: xx-small;
 	color: white;
 }
+
+.portfolioMain {
+	display: flex;
+	justify-content: center;
+}
+
+.project {
+	max-height: 11%;
+	z-index: 1;
+	opacity: 1;
+	max-width: 11%;
+	height: 100%;
+	margin: 5%;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1.5 rem;
+	position: relative;
+}
+
+.project_image {
+	max-width: 100%;
+	align-self: center;
+	padding: 0;
+	margin: 0;
+}
+
+.project h2 {
+	position: absolute;
+	/* top: 50%; */
+	left: 20%;
+	text-align: center;
+	align-content: center;
+	bottom: 30%;
+	font-family: 'Bad Script', cursive;
+	font-size: 1.25rem;
+	z-index: 2;
+}
