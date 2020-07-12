@@ -27,7 +27,7 @@
 	z-index: 1;
 	font-size: 6vmin;
 	text-align: center;
-	font-family: "Bad Script", monospace;
+	font-family: "Bad Script", cursive;
 }
 
 .card__img {
@@ -82,23 +82,7 @@
 		text-shadow: 0.075em 0.075em var(--secondary);
 	}
 }
-/* @media screen and (min-width: 25rem) {
-	.card__title::before {
-		content: "";
-		position: absolute;
-		left: 0;
-		top: 10%;
-		width: 100%;
-		height: 60%;
-		clip-path: circle(3% at 95%);
-		background-image: linear-gradient(150deg, var(--primary) 30%, var(--secondary) 50%, var(--accent));
-		z-index: -1;
-		transition: clip-path 400ms ease-in-out;
-		.artist-card:hover & {
-			clip-path: circle(100%);
-		}
-	}
-} */
+
 /* page layout */
 body {
 	margin-bottom: 4rem;
@@ -122,16 +106,26 @@ nav {
 	align-items: center;
 	padding: 0 1.5 rem;
 	position: relative;
-	font-family: "Bad Script", monospace;
+	font-family: "Bad Script", cursive;
 	font-size: 2rem;
+}
+
+.navbar a {
+	/* removing link underlines */
+	text-decoration: none;
 }
 
 .navbarSubpage {
 	display: inline-block;
 	justify-content: space-around;
 	align-items: flex-start;
-	font-family: "Bad Script", monospace;
+	font-family: "Bad Script", cursive;
 	font-size: 1.5rem;
+}
+
+.navbarSubpage a {
+	/* removing link underlines */
+	text-decoration: none;
 }
 
 .aboutText {
