@@ -135,13 +135,15 @@ nav {
 }
 
 .aboutText {
-	max-width: 85%;
+	max-width: 95%;
 	display: inline-block;
 	font-family: 'Kalam', cursive;
 	font-size: 1.25rem;
-	margin: 3rem;
+	margin: 2rem 5rem;
 	z-index: 1;
 	position: relative;
+	justify-content: center;
+	padding-right: 0;
 }
 
 #banana {
