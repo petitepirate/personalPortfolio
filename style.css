@@ -6,12 +6,15 @@
 
 .card {
 	display: grid;
+	opacity: 1;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: 1fr 1rem auto;
 	max-width: 40%;
 	margin: auto;
 	position: relative;
 	box-shadow: 0.75rem -0.5rem 0 var(--accent), 0 -0.5rem 0 var(--primary), -0.8rem -1rem 0 var(--secondary);
+	height: 100%;
+	vertical-align: middle;
 }
 
 .card__title {
@@ -98,8 +101,10 @@
 } */
 /* page layout */
 body {
-	margin-top: 4rem;
 	margin-bottom: 4rem;
+	margin-left: 0;
+	padding: 0;
+	margin-top: 0;
 }
 
 nav {
@@ -135,7 +140,6 @@ nav {
 	font-family: 'Kalam', cursive;
 	font-size: 1.25rem;
 	margin: 3rem;
-	float;
 }
 
 #banana {
@@ -144,6 +148,7 @@ nav {
 	margin-right: 1.5rem;
 	margin-bottom: 1rem;
 	position: relative;
+	z-index: 1;
 }
 
 .construction {
@@ -154,4 +159,18 @@ nav {
 
 #construction {
 	width: 45%;
+	z-index: 1;
+}
+
+.body {
+	max-width: 100%;
+	position: absolute;
+	z-index: 0;
+	margin-top: 0;
+	opacity: .5;
+	padding: 0;
+}
+
+.header {
+	height: 4rem;
 }
