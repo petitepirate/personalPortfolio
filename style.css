@@ -149,9 +149,19 @@ nav {
 }
 
 .construction {
-	display: flex;
+	position: fixed;
+	display: block;
 	justify-content: center;
-	margin-top: 3rem;
+	margin-top: 4rem;
+	margin-left: 37%;
+}
+
+#portConst {
+	position: fixed;
+	display: block;
+	justify-content: center;
+	bottom: 6rem;
+	margin-left: 37%;
 }
 
 #construction {
@@ -188,7 +198,7 @@ nav {
 	max-width: 11%;
 	height: 100%;
 	margin: 5%;
-	display: inline-block;
+	display: relative;
 	justify-content: center;
 	align-items: center;
 	padding: 0 1.5 rem;
@@ -204,12 +214,11 @@ nav {
 
 .project h2 {
 	position: absolute;
-	/* top: 50%; */
 	left: 20%;
 	text-align: center;
 	align-content: center;
 	bottom: 30%;
 	font-family: 'Bad Script', cursive;
-	font-size: 1.5vw;
+	font-size: 1.25vw;
 	z-index: 2;
 }
