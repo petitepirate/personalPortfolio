@@ -126,6 +126,7 @@ nav {
 .navbarSubpage a {
 	/* removing link underlines */
 	text-decoration: none;
+	color: rgba(94, 42, 107, 0.842);
 }
 
 .aboutText {
@@ -221,4 +222,5 @@ nav {
 	font-family: 'Bad Script', cursive;
 	font-size: 1.25vw;
 	z-index: 2;
+	color: rgba(94, 42, 107, 0.842);
 }
