@@ -192,17 +192,25 @@ nav {
 	justify-content: center;
 }
 
+.portfolio2 {
+	display: flex;
+	justify-content: center;
+	margin-top: 0;
+}
+
 .project {
 	max-height: 11%;
+	min-height: 9%;
 	z-index: 1;
 	opacity: 1;
 	max-width: 11%;
+	min-width: 9%;
 	height: 100%;
-	margin: 5%;
-	display: relative;
+	margin: 4%;
+	display: inline-block;
 	justify-content: center;
 	align-items: center;
-	padding: 0 1.5 rem;
+	padding: 0 1 rem;
 	position: relative;
 }
 
